@@ -69,6 +69,12 @@ ul.menu > li:is(:hover, :focus) {
   .logo > img {
     width: 50px !important;
     height: auto;
+    background-color: white;
+  }
+  nav > ul {
+    background-color: white;
+    width: 80px;
+    height: 100vh;
   }
 }
 
@@ -314,3 +320,4 @@ hr {
     width: 200px !important;
   }
 }
+
