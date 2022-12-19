@@ -35,6 +35,18 @@ body {
   height: fit-content;
 }
 
+.profile-top-right > div {
+  position: relative;
+}
+#red-dot {
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  display: block;
+  border-radius: 50%;
+}
+
 /* NAV PART */
 .navigation {
   background-color: white;
@@ -66,10 +78,15 @@ ul.menu > li:is(:hover, :focus) {
   span {
     display: none;
   }
+  .logo {
+    margin: 0 !important;
+    padding-top: 30px !important;
+    width: 50px !important;
+    background-color: white;
+  }
   .logo > img {
     width: 50px !important;
     height: auto;
-    background-color: white;
   }
   nav > ul {
     background-color: white;
