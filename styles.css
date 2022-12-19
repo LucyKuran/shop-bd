@@ -73,7 +73,7 @@ ul.menu > li:is(:hover, :focus) {
   }
   nav > ul {
     background-color: white;
-    width: 80px;
+    width: 50px;
     height: 100vh;
   }
 }
