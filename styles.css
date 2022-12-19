@@ -95,7 +95,7 @@ ul.menu li::before {
 }
 
 /* SVG GET COLORED WHEN HOVERING */
-ul.menu li:is(:hover,:focus)::before {
+ul.menu li:is(:hover, :focus)::before {
   background-color: #6666cc;
 }
 
